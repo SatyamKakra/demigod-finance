@@ -1,0 +1,547 @@
+
+#banner1 ,#banner2, #banner3 {
+    color: #fff;
+    background-image: url(../images/pattern-1.svg);
+    background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(230, 190, 53, 1));
+}
+.section-padding {
+    padding: 80px 0;
+}
+.primary-bg {
+    /* background-color: #281C02; */
+    background-image: url(../images/pattern-1.svg);
+}
+
+section {
+    position: relative;
+}
+.banner-content {
+    padding: 80px 50px 10px 0;
+}
+.banner-content h1 {
+    color: #fff;
+}
+h1 {
+    font-size: 42px;
+}
+.banner-content ul {
+    padding: 20px 0 0;
+    margin: 0 auto 50px;
+}
+.banner-content ul li {
+    list-style: none;
+    font-size: 22px;
+    margin: 0 auto 25px;
+}
+.banner-content ul li i {
+    margin-right: 8px;
+}
+.btn {
+    background: #ff6c00;
+    border: medium none;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 500;
+    margin: auto;
+    padding: 8px 28px;
+    transition: all 0.3s linear 0s;
+    -moz-transition: all 0.3s linear 0s;
+    -o-transition: all 0.3s linear 0s;
+    -webkit-transition: all 0.3s linear 0s;
+    -ms-transition: all 0.3s linear 0s;
+}
+.banner-image {
+    text-align: right;
+    margin-top: 5rem;
+}
+img .personal {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    
+}
+
+
+/* interest rate start  */
+
+.section-padding {
+    padding: 80px 0;
+}
+.gray_bg {
+    background: #fbf9f9;
+}
+section {
+    position: relative;
+}
+.section-header h2 {
+    margin: 0 auto;
+    color: #f49f00;
+}
+.section-header p {
+    margin: 6px auto 0;
+}
+.section-header{
+    margin-bottom: 2rem;
+}
+.features-box {
+    background: #fff;
+    padding: 40px 20px;
+    text-align: center;
+    border-radius: 8px;
+    transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s;
+    -mos-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    top: 0;
+    position: relative;
+    margin: 0 auto 25px;
+}
+.icon-wrap {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background: #f49f00;
+    margin: 0 auto 15px;
+    color: #fff;
+    font-size: 30px;
+    line-height: 90px;
+    transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s;
+    -mos-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+}
+h4 {
+    font-size: 26px;
+}
+.btn {
+    background: #f49f00;
+    border: medium none;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 500;
+    margin: auto;
+    padding: 8px 28px;
+    transition: all 0.3s linear 0s;
+    -moz-transition: all 0.3s linear 0s;
+    -o-transition: all 0.3s linear 0s;
+    -webkit-transition: all 0.3s linear 0s;
+    -ms-transition: all 0.3s linear 0s;
+}
+.features-box:hover {
+    box-shadow: rgb(0 0 0 / 4%) 0 0 20px;
+    top: -10px;
+}
+ /* interest rate end  */
+
+/* let's discuss */
+/* .contact-wrap {
+    padding: 40px;
+    max-width: 750px;
+    margin: 0 auto;
+}
+.contact-wrap h4 {
+    color: #fff;
+    text-align: center;
+    margin: 0 auto 40px;
+}
+.form-group {
+    margin-bottom: 15px;
+    position: relative;
+}
+.form-control {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 6px;
+    border: #ccc solid 1px;
+    box-shadow: none;
+    color: #888888;
+    font-size: 14px;
+    height: 50px;
+    line-height: 30px;
+    padding: 0 15px;
+}
+.primary-bg {
+    background-color:#78660c;
+    background-image: url(../images/pattern-1.svg);
+} */
+.facts-wrap {
+    margin: 0 auto 60px;
+}
+.facts-number {
+    font-size: 100px;
+    line-height: 100px;
+    margin: 0 auto 12px;
+}
+.facts-wrap:last-child {
+    margin: 0 auto;
+}
+.facts-number {
+    font-size: 100px;
+    line-height: 100px;
+    margin: 0 auto 12px;
+}
+  /* document required start  */
+
+ .section1-padding {
+    padding: 80px 0;
+}
+.section1 {
+    position: relative;
+}
+.section1-documents {
+    margin: 0 auto;
+    max-width: 800px;
+    padding-bottom: 65px;
+}
+.section1-documents h2 {
+    margin: 0 auto;
+    color: #f49f00;
+}
+h2 {
+    font-size: 34px;
+}
+.section1-documents p {
+    margin: 22px auto 0;
+}
+.doc-list-wrap {
+    position: relative;
+    padding: 60px;
+    color: #fff;
+}
+.primary-bgdocs {
+    background-color: #947a24;
+    /* background-image: url(../images/pattern-1.svg); */
+}
+.doc-list {
+    display: table;
+    width: 100%;
+    margin: 0 auto 40px;
+}
+.list-icon {
+    float: left;
+    background: #fff;
+    padding: 20px;
+    width: 160px;
+    height: 160px;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: rgb(0 0 0 / 10%) 0 0 12px;
+    border: rgba(0, 0, 0, 0.3) solid 1px;
+    z-index: 1;
+    position: relative;
+    font-size: 70px;
+    color: #062166;
+    line-height: 120px;
+    transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+}
+.list-info {
+    float: right;
+    padding: 15px 0;
+    width: calc(100% - 200px);
+}
+.list-info h5 {
+    color: #fff;
+    font-size: 22px;
+}
+.list-info p {
+    margin-bottom: 20px;
+    color: white;
+}
+.doc-list-wrap:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    content: "";
+    background: #fff;
+    width: 150px;
+}
+.doc-list:hover .list-icon {
+    background: #f49f00;
+    color: #fff;
+}
+/* documents required end */
+
+/* Eligibility start */
+/* #eligiblity{
+    background-color: rgba(31, 33, 36, 0.9);
+    
+} */
+
+.ul-listing {
+    padding: 0;
+    margin: 0 auto;
+}
+.ul-listing li {
+    padding: 0 0 0 40px;
+    list-style: none;
+    margin: 0 auto 25px;
+    position: relative;
+}
+.listing-icon {
+    position: absolute;
+    top: 5px;
+    left: 0;
+    background: #ff6c00;
+    width: 25px;
+    height: 25px;
+    color: #fff;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 27px;
+}
+.car-image {
+    text-align: center;
+}
+/* Eligibility end */
+
+#banner-edu {
+    color: #fff;
+    background-image: url(../images/pattern-1.svg);
+    background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(230, 190, 53, 1));
+}
+.section-padding {
+    padding: 80px 0;
+}
+.primary-bg {
+    /* background-color: #062166; */
+    background-image: url(../images/pattern-1.svg);
+}
+section {
+    position: relative;
+}
+.banneredu-content {
+    padding: 10px 50px 10px 0;
+}
+.banneredu-content h1 {
+    color: #fff;
+}
+.banneredu-content ul {
+    padding: 20px 0 0;
+    margin: 0 auto 50px;
+}
+.banneredu-content ul li {
+    list-style: none;
+    font-size: 22px;
+    margin: 0 auto 25px;
+}
+.banneredu-content ul li i {
+    margin-right: 8px;
+}
+.banneredu-content ul li {
+    list-style: none;
+    font-size: 22px;
+    margin: 0 auto 25px;
+}
+
+.steps {
+    overflow: hidden;
+    margin: 0 auto 20px;
+}
+.step-icon {
+    width: 148px;
+    height: 148px;
+    text-align: center;
+    border: rgba(0, 0, 0, 0.2) solid 1px;
+    float: left;
+    border-radius: 50%;
+    line-height: 142px;
+    font-size: 70px;
+    color: #062166;
+}
+.step-info {
+    float: right;
+    width: calc(100% - 180px);
+    padding: 10px 0;
+}
+.steps h5 {
+    margin: 0 auto 14px;
+}
+h5 {
+    font-size: 22px;
+}
+.form-wrap {
+    background: #fff;
+    padding: 50px;
+    border-radius: 6px;
+    box-shadow: rgb(0 0 0 / 20%) 0 0 30px;
+}
+.form-header {
+    background: #222222;
+    padding: 25px 40px;
+    margin: -50px -50px 40px;
+    border-radius: 6px 6px 0 0;
+}
+.form-header h3 {
+    color: #fff;
+    margin: 0 auto;
+}
+.form-wrap form {
+    margin: 0 auto 25px;
+}
+.form-group {
+    margin-bottom: 15px;
+    position: relative;
+}
+.form-control {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 6px;
+    border: #ccc solid 1px;
+    box-shadow: none;
+    color: #888888;
+    font-size: 14px;
+    height: 50px;
+    line-height: 30px;
+    padding: 0 15px;
+}
+img {
+    max-width: 100%;
+    /* width: auto; */
+    height: auto;
+}
+.check-list {
+    padding: 0;
+}
+ul, ol {
+    margin: 0 auto 20px;
+}
+.check-list li {
+    list-style: none;
+    margin: 0 auto 18px;
+    font-size: 18px;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #111111;
+    margin: 0 auto 20px;
+    font-weight: 600;
+}
+
+
+/* home loan */
+#banner3{
+    margin-top: 2rem;
+    padding-top: 0rem;
+        background: radial-gradient(1.5em 6.28571em at 1.95em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 0 0, radial-gradient(1.5em 6.28571em at -0.45em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 1.5em 5.5em, radial-gradient(2.3em 4.57143em at 2.99em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0.3) 55%, rgba(255, 255, 255, 0) 55%) 0 0, radial-gradient(2.3em 4.57143em at -0.69em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0.3) 55%, rgba(255, 255, 255, 0) 55%) 2.3em 4em, radial-gradient(3.5em 6.28571em at 4.55em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 0 0, radial-gradient(3.5em 6.28571em at -1.05em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 3.5em 5.5em, radial-gradient(#fcc203, #1b2020);
+        background-color: rgb(56, 50, 17);
+        background-size: 1.5em 11em, 1.5em 11em, 2.3em 8em, 2.3em 8em, 3.5em 11em, 3.5em 11em, 100% 100%;
+        background-repeat: repeat;
+      
+}
+.banafits-list {
+    display: flex;
+    padding: 0 0 15px;
+    margin: 0 auto 25px;
+}
+.icon-box {
+    width: 100%;
+    height: 80px;
+    margin-right: 20px;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: rgb(0 0 0 / 10%) 0 0 12px;
+    border: rgba(0, 0, 0, 0.3) solid 1px;
+    max-width: 80px;
+    padding: 15px;
+}
+.banafits-info p {
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.white-box {
+    background: #fff;
+    border-radius: 6px;
+    padding: 30px;
+    position: relative;
+    top: 0;
+    box-shadow: rgb(0 0 0 / 8%) 0 0 20px;
+    transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -ms-transition-duration: 0.3s;
+}
+.white-box ul {
+    padding-left: 15px;
+}
+ul, ol {
+    margin: 0 auto 20px;
+}
+.white-box img {
+    margin: 0 auto 20px;
+}
+.white-box:hover {
+    top: -5px;
+}
+/* home loan end */
+
+/* commercial loan start */
+
+#banner4 {
+    
+        background: linear-gradient(-45deg, #2e2826, #c0922e, #60696d, #c2a10e);
+        background-size: 400% 400%;
+        animation: gradient 15s ease infinite;
+        height: 100vh;
+    }
+    
+    @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+    
+  
+  
+
+/* commercial loan end */
+
+/* asset loan start */
+
+#banner5{
+    background: linear-gradient(-45deg, #2e2826, #c0922e, #60696d, #c2a10e);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 100vh; 
+}
+.ul-listing {
+    padding: 0;
+    margin: 0 auto;
+}
+.ul-listing li {
+    padding: 0 0 0 40px;
+    list-style: none;
+    margin: 0 auto 25px;
+    position: relative;
+}
+.listing-icon {
+    position: absolute;
+    top: 5px;
+    left: 0;
+    background: #ff6c00;
+    width: 25px;
+    height: 25px;
+    color: #fff;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 27px;
+}
+.car-image {
+    text-align: center;
+}
+.ul-listing li p{
+    font-size: large;
+    color: #111111;
+}
+/* asset loan end */
