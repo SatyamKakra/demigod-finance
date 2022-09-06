@@ -601,7 +601,7 @@
   margin-top: 19vh;
   margin-bottom: 6vh;
   position: relative;
-  height: 20vh;
+  height: 30vh;
   margin-left: 0.5rem;
   margin-right: -2rem;
   animation-delay: 1000ms;
@@ -611,7 +611,7 @@
   }
   
   .carousel-control-prev {
-    color: white;
+    color: rgb(15, 14, 14);
     font-size: 40px;
     padding: 10px;
     margin-top: 2.5rem;
@@ -619,7 +619,7 @@
   }
   
   .carousel-control-next {
-    color: white;
+    color: rgb(10, 10, 10);
     font-size: 40px;
     padding: 10px;
     margin-top: 2.5rem;

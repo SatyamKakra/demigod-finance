@@ -474,6 +474,7 @@ background-color: white;
 .about-text h2 {
 	font-size: 48px;
 	margin-bottom: 25px;
+  color: #f49f00;
 }
 
 .about-text h5 {
@@ -494,3 +495,239 @@ background-color: white;
 .site-btn1{
   margin-top: 1rem;
 }
+
+/* request for call start */
+.callback-heading{
+text-align: center;
+color: #f49f00;
+}
+.section-heading , span{
+  text-align: center;
+}
+.callback-services {
+	border-top: 1px solid #eee;
+	padding-top: 140px;
+}
+
+.contact-us {
+	background-color: #f7f7f7;
+	padding: 140px 0px;
+}
+
+.contact-us .contact-form {
+	background-color: transparent!important;
+	padding: 0!important;
+}
+
+.callback-form {
+	margin-top: 140px;
+  margin-bottom: 2rem;
+}
+
+.callback-form .contact-form {
+	background-color: rgb(249 209 15);
+	padding: 60px;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.callback-form .contact-form input {
+	border-radius: 20px;
+	height: 40px;
+	line-height: 40px;
+	display: inline-block;
+	padding: 0px 15px;
+	color: #6a6a6a;
+	font-size: 13px;
+	text-transform: none;
+	box-shadow: none;
+	border: none;
+	margin-bottom: 35px;
+}
+
+.callback-form .contact-form input:focus {
+	outline: none;
+	box-shadow: none;
+	border: none;
+}
+
+.callback-form .contact-form textarea {
+	border-radius: 20px;
+	height: 120px;
+	max-height: 200px;
+	min-height: 120px;
+	display: inline-block;
+	padding: 15px;
+	color: #6a6a6a;
+	font-size: 13px;
+	text-transform: none;
+	box-shadow: none;
+	border: none;
+	margin-bottom: 35px;
+}
+
+.callback-form .contact-form textarea:focus {
+	outline: none;
+	box-shadow: none;
+	border: none;
+}
+
+.callback-form .contact-form ::-webkit-input-placeholder { /* Edge */
+  color: #aaa;
+}
+.callback-form .contact-form :-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #aaa;
+}
+.callback-form .contact-form ::placeholder {
+  color: #aaa;
+}
+
+.callback-form .contact-form button.border-button {
+	background-color: black;
+	color: #fff;
+	border: 2px solid #fff;
+	font-size: 13px;
+	text-transform: uppercase;
+	font-weight: 700;
+	padding: 10px 28px;
+	border-radius: 30px;
+	display: inline-block;
+	transition: all 0.3s;
+	outline: none;
+	box-shadow: none;
+	text-shadow: none;
+	cursor: pointer;
+}
+
+.callback-form .contact-form button.border-button:hover {
+	background-color: rgb(114, 93, 36);
+	color: #f49f00;
+}
+
+.contact-us .contact-form button.filled-button {
+	background-color: #a4c639;
+	color: #fff;
+	border: none;
+	font-size: 13px;
+	text-transform: uppercase;
+	font-weight: 700;
+	padding: 12px 30px;
+	border-radius: 30px;
+	display: inline-block;
+	transition: all 0.3s;
+	outline: none;
+	box-shadow: none;
+	text-shadow: none;
+	cursor: pointer;
+}
+
+.contact-us .contact-form button.filled-button:hover {
+	background-color: #fff;
+	color: #a4c639;
+}
+ /* request for call end  */
+
+ /* invest in crypto start */
+ .marketing_section1 {
+  width: 100%;
+  float: left;
+}
+
+.layout_padding1 {
+  padding-top: 90px;
+  padding-bottom: 20px;
+}
+.image_1 {
+  width: 100%;
+  float: left;
+}
+.padding_0 {
+  padding: 0px;
+}
+.job_section_2 {
+  width: 70%;
+  float: left;
+  margin-left: 5rem;
+}
+.jobs_text {
+  width: 100%;
+  float: left;
+  font-size: 46px;
+  color: #252525;
+}
+.jobs_text span{
+  color: #f49f00;
+}
+.dummy_text {
+  width: 100%;
+  float: left;
+  font-size: 16px;
+  color: #252525;
+  margin-left: 0px;
+}
+.apply_bt {
+  width: 45%;
+  float: left;
+  margin-top: 50px;
+}
+.apply_bt a {
+  width: 100%;
+  float: left;
+  font-size: 18px;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 0px;
+  background-color: rgb(244, 159, 0);
+}
+/* invest in crypto end */
+
+/*---------------------
+	Process Section
+-----------------------*/
+.section1{
+  margin-bottom: 20rem;
+  margin-top: 2rem;
+}
+.process:last-child .process-step:after {
+	display: none;
+}
+
+.process-step {
+	position: relative;
+	text-align: center;
+	padding: 35px;
+	margin-top: 30px;
+	-webkit-box-shadow: 0 14px 43px rgba(33, 54, 61, 0.15);
+	        box-shadow: 0 14px 43px rgba(33, 54, 61, 0.15);
+}
+
+.process-step .process-icon {
+	height: 55px;
+	margin-bottom: 30px;
+	padding-top: 5px;
+}
+
+.process-step h4 {
+	margin-bottom: 15px;
+}
+
+.process-step p {
+	margin-bottom: 0;
+}
+
+.process-step:after {
+	position: absolute;
+	content: '';
+	width: 275px;
+	height: 56px;
+	top: -40px;
+	right: -40%;
+	background: url("../image/process-line.png") no-repeat scroll 0 0/cover;
+}
+
+
+.appointment {
+  background: linear-gradient(to right, rgba(230, 190, 53, 1) , rgba(0, 0, 0, 1) );
+  background-size: cover;
+}
+
