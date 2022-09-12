@@ -1,0 +1,426 @@
+.btn {
+    display: inline-block;
+    padding: 13px 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    position: relative;
+    background: transparent;
+    border: 1px solid #e1e1e1;
+    font: 12px/1.2 "Oswald", sans-serif;
+    letter-spacing: 0.4em;
+    text-align: center;
+    text-indent: 2px;
+    text-transform: uppercase;
+    transition: color 0.1s linear 0.05s;
+  }
+  .btn::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: #df9102;
+    z-index: 1;
+    opacity: 0;
+    transition: height 0.2s ease, top 0.2s ease, opacity 0s linear 0.2s;
+  }
+  .btn::after {
+    transition: border 0.1s linear 0.05s;
+  }
+  .btn .btn-inner {
+    position: relative;
+    z-index: 2;
+  }
+  .btn:hover {
+    color: #020202;
+    transition: color 0.1s linear 0s;
+  }
+  .btn:hover::before {
+    top: 0;
+    height: 100%;
+    opacity: 1;
+    transition: height 0.2s ease, top 0.2s ease, opacity 0s linear 0s;
+  }
+  .btn:hover::after {
+    border-color: #373737;
+    transition: border 0.1s linear 0s;
+  }
+  
+  .slideshow {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    z-index: 1;
+  }
+  .slideshow .slideshow-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .slideshow .slides {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+  .slideshow .slide {
+    display: none;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  .slideshow .slide.is-active {
+    display: block;
+  }
+  .slideshow .slide.is-loaded {
+    opacity: 1;
+  }
+  .slideshow .slide .caption {
+    padding: 0 100px;
+  }
+  .slideshow .slide .image-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    z-index: 1;
+    background-size: cover;
+    image-rendering: optimizeQuality;
+  }
+  .slideshow .slide .image-container::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  .slideshow .slide .image {
+    width: 100%;
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+  }
+  .slideshow .slide-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .slideshow .slide .title {
+    margin: 0 auto 15px;
+    max-width: 1000px;
+    font: 300 50px/1.2 "Oswald", sans-serif;
+    letter-spacing: 0.35em;
+    text-transform: uppercase;
+  }
+  .slideshow .slide .text {
+    margin: 0 auto;
+    max-width: 1000px;
+    font-size: 18px;
+    line-height: 1.4;
+  }
+  .slideshow .slide .btn {
+    margin: 15px 0 0;
+    border-color: #fff;
+  }
+  .slideshow .slide .btn::before {
+    background: rgb(243, 158, 1);
+  }
+  .slideshow .pagination {
+    position: absolute;
+    bottom: 35px;
+    left: 0;
+    width: 100%;
+    height: 12px;
+    cursor: default;
+    z-index: 2;
+    text-align: center;
+  }
+  .slideshow .pagination .item {
+    display: inline-block;
+    padding: 15px 5px;
+    position: relative;
+    width: 46px;
+    height: 32px;
+    cursor: pointer;
+    text-indent: -999em;
+    z-index: 1;
+  }
+  .slideshow .pagination .item + .page {
+    margin-left: -2px;
+  }
+  .slideshow .pagination .item::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 15px;
+    left: 5px;
+    width: 36px;
+    height: 2px;
+    background: rgba(255, 255, 255, 0.5);
+    transition: background 0.2s ease;
+  }
+  .slideshow .pagination .item::after {
+    width: 0;
+    background: #fff;
+    z-index: 2;
+    transition: width 0.2s ease;
+  }
+  .slideshow .pagination .item:hover::before, .slideshow .pagination .item.is-active::before {
+    background-color: #fff;
+  }
+  .slideshow .arrows .arrow {
+    margin: -33px 0 0;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+    z-index: 3;
+  }
+  .slideshow .arrows .prev {
+    left: 30px;
+  }
+  .slideshow .arrows .prev:hover .svg {
+    left: -10px;
+  }
+  .slideshow .arrows .next {
+    right: 30px;
+  }
+  .slideshow .arrows .next:hover .svg {
+    left: 10px;
+  }
+  .slideshow .arrows .svg {
+    position: relative;
+    left: 0;
+    width: 14px;
+    height: 26px;
+    fill: #fff;
+    transition: left 0.2s ease;
+  }
+  .text p{
+    color: rgb(255, 255, 255);
+  }
+
+
+
+  /* main card start */
+ 
+
+h2 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+small {
+    font-size: 14px;
+}
+
+.pull {
+    float: left;
+}
+
+.push {
+    float: right;
+}
+
+.container_fund {
+  width: 100%;
+  max-width: 1137px;
+  margin: 100px auto;
+}
+
+.fundimg{
+    width: 100%;
+    display: block;
+}
+
+/*Card Styling*/
+
+.card_fund {
+    border: 1px solid #dedede;
+    background-color: white;
+}
+
+.card__wrap--inner {
+            padding: 12px;
+        }
+
+.card__item {
+        padding: 12px 18px 12px 18px;
+    }
+    .card__item h2{
+      color: #df9102;
+    }
+
+.card__sub {
+        padding: 0 18px;
+    }
+
+.card__footer {
+        padding: 18px;
+        overflow: hidden;
+        border-top: 1px solid #dedede;
+    }
+
+/*Card Flex Code*/
+
+.card_fund {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.card_fund a{
+  color: #020202;
+}
+.card__wrap--outer {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            width: 100%;
+        }
+
+.card__wrap--inner {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+        }
+
+@media (min-width: 480px) {
+
+.card__wrap--inner { 
+                width: 50%
+        }
+            }
+
+@media (min-width: 1024px) {
+
+.card__wrap--inner { 
+                width: 33.33%
+        }
+            }
+
+.flexible {
+    flex-grow: 1;
+}
+
+.w100p {
+  width: 100%;
+ 
+}
+.mb3 {
+  margin-bottom: 1.8rem;
+  
+}
+.bg-grey-400 {
+  background-color: #E8E8E8;
+  
+}
+.h3px {
+  height: 0.3rem;
+  
+}
+.bg-ksr-green-700 {
+  background-color: #fda80a;
+}
+  /* main card end */
+
+  /* call start */
+  .login_section {
+    background-image: url(../image/call-bg.jpg);
+    background-size: cover;
+    color: #ffffff;
+  }
+  
+  .login_section .row {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .login_section .detail-box h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #df9102;
+  }
+  .detail-box p{
+    color: #dedede;
+  }
+  .login_section .detail-box a {
+    display: inline-block;
+    padding: 7px 25px;
+    background-color: #070707;
+    border: 1px solid #f8f8f8;
+    color: #f5a510;
+    margin-top: 15px;
+    font-weight: 600;
+  }
+  
+  .login_section .detail-box a:hover {
+    background-color: #f5a510;
+    color: #080808;
+  }
+  
+  .login_section .login_form {
+    padding: 30px 15px;
+    background-color: rgba(255, 255, 255, 0.25);
+    text-align: center;
+    border-radius: 15px;
+  }
+  
+  .login_section .login_form h3 {
+    margin-bottom: 15px;
+    color: #df9102;
+  }
+  
+  .login_section .login_form form input {
+    height: 40px;
+    width: 100%;
+    padding-left: 15px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin: 10px 0;
+  }
+  
+  .login_section .login_form form button {
+    display: inline-block;
+    padding: 7px 45px;
+    background-color: #252525;
+    border: 1px solid #252525;
+    color: #f5a510;
+    margin-top: 25px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  .login_section .login_form form button:hover {
+    background-color: #f5a510;
+    color: #252525;
+  }
+  /* call end */

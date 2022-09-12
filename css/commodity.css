@@ -1,0 +1,64 @@
+.banner.easy_equity {
+    background: url(../image/bannercommodity.jpg) center top no-repeat;
+    background-size: cover;
+    margin-top: 7rem;
+    margin-bottom: 2rem;
+}
+.banner {
+    border-bottom: 1px solid #e7e7e7;
+    height: 258px;
+}
+.main {
+    width: 100%;
+    margin: 0 auto;
+}
+.banIn {
+    padding: 60px 20px 0 0;
+    float: right;
+}
+
+
+/* Start Slider Area
+==================================================*/
+.slider-bg-1 {background: url(../img/slide_01.jpg);}
+.slider-bg-2 {background: url(../img/slide_02.jpg);}
+.slider-bg-3 {background: url(../img/slide_03.jpg);}
+
+.single-slider {
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    background-color: #cccccc;
+    display: table;
+    width: 100%;
+}
+
+.slider-inner {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.slider-inner h3 {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 3px;
+    font-weight: 400;
+}
+
+.slider-inner h1 {
+    font-size: 70px;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 3px;
+    line-height: 1;
+}
+
+.get-started-btn {
+    margin-top: 40px;
+    padding: 15px 35px;
+    text-transform: capitalize;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+/* End Slider Area */

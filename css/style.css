@@ -3063,6 +3063,7 @@ Score section end
   .active1 {
 	/* background-color: rgba(248, 240, 240, 0.8); */
 	background: snow;
+	border-bottom: 1px solid black;
   }
   .active1 .scrol_menu{
 	color: #080808 !important;
@@ -3070,3 +3071,10 @@ Score section end
    .main-menu li a .scrol_menu:hover{
 	color: #D1B000;
   }
+
+
+
+
+
+
+  

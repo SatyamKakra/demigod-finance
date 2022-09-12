@@ -1,9 +1,10 @@
 
-#banner1 ,#banner2, #banner3 {
+#banner1 , #banner3 {
     color: #fff;
     background-image: url(../images/pattern-1.svg);
     background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(230, 190, 53, 1));
 }
+
 .section-padding {
     padding: 80px 0;
 }
@@ -268,7 +269,31 @@ h2 {
 }
 /* documents required end */
 
+/* business loan start */
+#banner2{
+    background-color: #b1b1b1;
+}
+#business{
+    margin-top: -7rem;
+}
+.section-title::before {
+    position: absolute;
+    content: "";
+    width: 150px;
+    height: 5px;
+    left: 0;
+    bottom: 0;
+    background: var(--secondary);
+    border-radius: 2px;
+}
+.section-title h1{
+    text-align: left;
+}
+/* business loan end */
+
+
 /* Eligibility start */
+
 /* #eligiblity{
     background-color: rgba(31, 33, 36, 0.9);
     
@@ -546,6 +571,213 @@ ul, ol {
 }
 /* asset loan end */
 
-/* breacker for business start */
+/* breacker 1 start */
+.marquee {
+    background-color: #000;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 50px;
+    height: auto;
+}
+.marquee::before {
+    left: 0;
+    background: linear-gradient(to right,#111 0%,transparent 100%);
+}
+.marquee::before, .marquee::after {
+    position: absolute;
+    top: 0;
+    width: 10rem;
+    height: 100%;
+    content: "";
+    z-index: 1;
+}
+.marquee-content {
+    list-style: none;
+    height: 100%;
+    padding: 15px 0;
+    display: flex;
+    animation: 1s scrolling;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+.marquee-content li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    flex-shrink: 0;
+    white-space: nowrap;
+}
+.marquee-content p {
+    width: 100%;
+    position: relative;
+    right: 50%;
+    text-align: center;
+    padding-top: 86px;
+    color: rgb(235, 192, 19);
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 600;
+}
+.marquee::after {
+    right: 0;
+    background: linear-gradient(to left,#111 0%,transparent 100%);
+}
+.marquee::before, .marquee::after {
+    position: absolute;
+    top: 0;
+    width: 10rem;
+    height: 100%;
+    content: "";
+    z-index: 1;
+}
+/*  breacker 1 end*/
 
-/*  breacker for business end*/
+
+/* breacker 2 start */
+.main_counter_content{
+    display: flex;
+    
+  }
+  .main_counter_content .single_counter {
+	background: #fff none repeat scroll 0 0;
+	border: 3px solid #c2a10e;
+	border-radius: 50%;
+	color: #070707;
+	/* display: block; */
+	height: 190px;
+	margin: 0 auto;
+	width: 190px;
+	font-weight: 600;
+	font-size: 30px;
+	padding-top: 28px;
+	padding-bottom: 28px;
+    margin-bottom: 1rem;
+  }
+  
+  p.counter_icon{
+	margin-bottom: 0;
+  }
+  
+  p.counter_icon i{
+	font-size:32px;
+	position: relative;
+	top: -10px;
+  }
+  .single_counter.p-y-2 > span {
+	font-size: 32px;
+	font-weight: 600;
+  }
+/* breacker 2 end */
+
+/* breacker 3 start */
+.header-bottom-section {
+    background-color: #494848;
+    padding: 20px 0;
+    margin-top: 2rem;
+}
+
+.single-header-bottom {
+    color: #fff;
+}
+.single-header-bottom .content p{
+	margin-bottom:5px;
+}
+
+.single-header-bottom .icon {
+    float: left;
+    margin-right: 20px;
+    width: 35px;
+}
+
+.single-header-bottom .content {
+    padding-left: 55px;
+    font-size: 20px;
+    font-family: 'Muli', sans-serif;
+    font-weight: 600
+}
+/* breacker 3 end*/
+
+/* breacker 4 start */
+.min-features{
+    padding: 50px 0 70px
+  }
+  .single-features {
+      background: #111111;
+      padding: 30px 15px;
+      transition: all 0.3s ease;
+      margin-bottom: 30px;
+  }
+  .single-features:hover{
+    background: #eb9a05
+  }
+  .media {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-align: start;
+      align-items: flex-start;
+  }
+  .single-features .media img {
+      max-height: 64px;
+      max-width: 64px;
+      margin-right: 20px;
+      object-fit: cover;
+  }
+  .single-features .media-body h5 {
+      font-size: 20px;
+      color: #f1f1f1;
+      margin-top: 0;
+      padding-top: 12px;
+  }
+
+/* breacker 4 end */
+
+/* breacker 5 start */
+.cool-facts-area {
+    padding: 100px 0 70px;
+
+}
+
+.single_cool_fact {
+    position: relative;
+    z-index: 1;
+    background: #fff;
+    border: 1px solid #eb9a05;
+    border-bottom: 3px solid #eb9a05;
+    border-radius: 0 0 20px 20px;
+    padding: 30px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+
+.cool_fact_icon i {
+    font-size: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: .1;
+    color: #242020;
+    font-weight: 800;
+}
+
+.cool_fact_detail h3 {
+    font-size: 35px;
+    font-weight: 600;
+    margin-top: 0 !important;
+    margin-top: 15px;
+    color: #0a0a0a !important;
+}
+
+.cool_fact_detail h2 {
+    font-size: 14px;
+    margin-bottom: 0;
+    color: #0c0c0c !important;
+    text-transform: uppercase;
+}
+/* breacker 5 end */
+
+/* test */
+
