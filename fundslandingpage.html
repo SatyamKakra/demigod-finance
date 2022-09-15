@@ -4,12 +4,17 @@
 <head>
 	<title>Demigod Finance</title>
 	<meta charset="UTF-8">
-	<meta name="description" content="loans HTML Template">
-	<meta name="keywords" content="loans, html">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+	<meta name="description"
+	  content="Demigod Finance is top Financial  company accross the globe which offers Loans, Investment, Commodity, Funds and many more types of Financial services" />
+	<meta name="keywords"
+	  content="Loans, Investments, Commodities, Funds, top Finance companies, top Finance company,Finance company in usa, Finance company in california, creative Finance company" />
+	<meta property="og:title" content="Finance Management Services | Finance Management Company | Demigod Finance" />
+	<meta property="og:description"
+	  content="Demigod Finance is top provider Finance company across the globe that offers Financial services at incredibly effective cost" />
 	<!-- Favicon -->
-	<!-- <link href="img/favicon.ico" rel="shortcut icon"/> -->
+	<link href="image/house demigodnew.png" rel="shortcut icon"/>
 
 	<!-- Google font -->
 	<link
@@ -88,7 +93,7 @@
 	<!-- Header Section end -->
 
 	<!-- Breadcrumb Section Begin -->
-	<div class="breadcrumb-option set-bg" data-setbg="image/fundslider.avif">
+	<div class="breadcrumb-option set-bg" data-setbg="image/fundingbanner.jpg">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12 text-center">
@@ -118,21 +123,22 @@
 			<div class="row">
 				<div class="col-lg-8 col-md-7">
 					<div class="blog__item">
-						<div class="blog__item__img">
-							<img src="./image/fundslider.avif" alt="">
+						<div class="blog__item__img" >
+							<img id="main-image" src="" alt="">
 						</div>
 						<div class="blog__item__text">
 							
 							<ul>
-								<li><i class="fa fa-clock-o"></i> 19th March, 2019</li>
-								<li><i class="fa fa-user"></i> John Smith</li>
-								<li><i class="fa fa-location"></i>London</li>
+								<i class="fa fa-clock-o" ></i>	<li id="date"> </li>
+								<i class="fa fa-user"></i> <li id="name"> </li>
+								<i class="fa fa-location"></i> <li id="location"></li>
 							</ul>
 							
 						</div>
 					</div>
 			
 				</div>
+				
 				<div class="col-lg-4 col-md-5">
 					<div class="blog__sidebar">
 						<div class="blog__sidebar__search">
@@ -143,18 +149,18 @@
 							
 						</div>
 						<div class="blog__sidebar__categories">
-							<h5><i class="fa fa-rupee"></i> &nbsp;3,023</h5>
-							<p>pledged of $3,725 goal</p>
+							<i class="fa fa-rupee"></i> <h5 id="amount"></h5>
+							<p id="amount-para"></p>
 							
 						</div>
 						<div class="blog__sidebar__recent">
-							<h5>36</h5>
-							<p>backers</p>
+							<h5 id="recent"></h5>
+							<p id="recent-para"></p>
 							
 						</div>
 						<div class="blog__sidebar__tags">
-							<h5>4</h5>
-							<p>days to go</p>
+							<h5 id="days"></h5>
+							<p id="days-para"></p>
 							
 						</div>
 						<div class="fund_btn">
@@ -168,8 +174,7 @@
 								<a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
 								<a href="#" class="google"><i class="fa fa-google"></i></a>
 								<a href="#" class="skype"><i class="fa fa-skype"></i></a>
-								<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet
-									consectetur adipisicing elit.</p>
+								<p id="social-para"></p>
 							</div>
 						</div>
 					</div>
@@ -226,22 +231,12 @@
 			<input type="radio" name="tabs" id="tabone" checked="checked">
 			<label for="tabone">Campaign</label>
 			<div class="tab">
-				<h4>Story</h4>
-				<h3>Lorem ipsum dolor sit amet.</h3>
-				<div class="blog__item__img">
-					<img src="./image/fundslider.avif" alt="">
+				<h4 >Story</h4>
+				<h3 id="campaign-heading"></h3>
+				<div class="blog__item__img" >
+					<img id="campaign-img" src="" alt="">
 				</div>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, natus odit nulla ullam
-					dicta voluptatum. Nesciunt officia veniam voluptates reiciendis, eius voluptate nihil
-					molestias nisi repudiandae similique quidem. Reprehenderit doloremque aut vel quam cum sint
-					omnis laudantium nisi ducimus odio! Lorem ipsum dolor sit amet consectetur adipisicing elit.
-					A obcaecati, libero, minus nobis saepe vel magnam deserunt rem repellat iste ipsum at
-					corrupti iusto error ullam culpa aspernatur maxime maiores, facilis voluptas quae doloremque
-					perferendis molestias soluta! Minus sed obcaecati accusamus praesentium earum labore dolores
-					modi repellendus autem ducimus facilis sint perspiciatis impedit assumenda hic, vero
-					suscipit nisi voluptatibus quia illum quisquam quod sunt ullam mollitia? Consectetur
-					blanditiis esse soluta delectus eos! Sapiente debitis tempore eos harum quasi eveniet
-					delectus.</p>
+				<p id="campaign-para"></p>
 			</div>
 			
 			<input type="radio" name="tabs" id="tabtwo">
@@ -278,8 +273,8 @@
 			<input type="radio" name="tabs" id="tabthree">
 			<label for="tabthree">Updates</label>
 			<div class="tab">
-			  <h5>Date: 11-09-2022</h5>
-			 <img src="./image/fundslider.avif" alt="">
+			  <h5 id="update-date"></h5>
+			 <img id="update-img" src="" alt="">
 	
 			</div>
 			<input type="radio" name="tabs" id="tabfour">
@@ -527,7 +522,7 @@
 	<script src="./js/owl.carousel.min.js"></script>
 	<script src="./js/jquery-ui.min.js"></script>
 	<script src="./js/main.js"></script>
-	<script src="./js/test.js"></script>
+	<!-- <script src="./js/test.js"></script> -->
 	<script src="./js/slider.js"></script>
 
 	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
@@ -547,27 +542,367 @@
 				const getData = val.find(getRes => getRes.id == id);
 				document.getElementById("main_heading").innerHTML = `${getData.mainHeading}`;
 				document.getElementById("main_para").innerHTML = `${getData.para}`;
-				document.getElementById("main-image").style.backgroundImage = `url(${getData.image1})`;
-				document.getElementById("blog-heading2").innerHTML = `${getData.heading2}`;
-				document.getElementById("blog-description1").innerHTML = `${getData.description1}`;
-				document.getElementById("blog-description2").innerHTML = `${getData.description2}`;
-			   
-				// document.getElementById("other-blog-img1").src = `${getData.otherimg1}`;
-				// document.getElementById("other-blog-heading1").innerHTML = `${getData.otherheading1}`;
-				// document.getElementById("other-blog-p1").innerHTML = `${getData.blogp1}`;
-				// document.getElementById("other-blog-img2").src = `${getData.otherimg2}`;
-				// document.getElementById("other-blog-heading2").innerHTML = `${getData.otherheading2}`;
-				// document.getElementById("other-blog-p2").innerHTML = `${getData.blogp2}`;
-				// document.getElementById("other-blog-img3").src = `${getData.otherimg3}`;
-				// document.getElementById("other-blog-heading3").innerHTML = `${getData.otherheading3}`;
-				// document.getElementById("other-blog-p3").innerHTML = `${getData.blogp3}`;
+				document.getElementById("main-image").src = `${getData.image1}`;
+				document.getElementById("date").innerHTML = `${getData.date1}`;
+				document.getElementById("name").innerHTML = `${getData.name1}`;
+				document.getElementById("location").innerHTML = `${getData.location1}`;
+				document.getElementById("amount").innerHTML = `${getData.amount1}`;
+				document.getElementById("amount-para").innerHTML = `${getData.amountPara1}`;
+				document.getElementById("recent").innerHTML = `${getData.recent1}`;
+				document.getElementById("recent-para").innerHTML = `${getData.recentPara1}`;				
+				document.getElementById("days").innerHTML = `${getData.days1}`;
+				document.getElementById("days-para").innerHTML = `${getData.daysPara1}`;
+				document.getElementById("social-para").innerHTML = `${getData.socialPara1}`;
+				document.getElementById("campaign-heading").innerHTML = `${getData.campaignHeading1}`;
+				document.getElementById("campaign-img").src = `${getData.campaignimg1}`;
+				document.getElementById("campaign-para").innerHTML = `${getData.campaignPara1}`;
+				document.getElementById("update-date").innerHTML = `${getData.updateDate1}`;
+				document.getElementById("update-img").src = `${getData.updateimg1}`;
 			  })
 			)
 			.catch(function (err) {
 			  console.log(err);
 			})
-		}
+		}else if (id == 2) {
+      data
+        .then(res => res.json()
+          .then(val => {
+            const getData = val.find(getRes => getRes.id == id);
+            document.getElementById("main_heading").innerHTML = `${getData.mainHeading}`;
+				document.getElementById("main_para").innerHTML = `${getData.para}`;
+				document.getElementById("main-image").src = `${getData.image1}`;
+				document.getElementById("date").innerHTML = `${getData.date1}`;
+				document.getElementById("name").innerHTML = `${getData.name1}`;
+				document.getElementById("location").innerHTML = `${getData.location1}`;
+				document.getElementById("amount").innerHTML = `${getData.amount1}`;
+				document.getElementById("amount-para").innerHTML = `${getData.amountPara1}`;
+				document.getElementById("recent").innerHTML = `${getData.recent1}`;
+				document.getElementById("recent-para").innerHTML = `${getData.recentPara1}`;				
+				document.getElementById("days").innerHTML = `${getData.days1}`;
+				document.getElementById("days-para").innerHTML = `${getData.daysPara1}`;
+				document.getElementById("social-para").innerHTML = `${getData.socialPara1}`;
+				document.getElementById("campaign-heading").innerHTML = `${getData.campaignHeading1}`;
+				document.getElementById("campaign-img").src = `${getData.campaignimg1}`;
+				document.getElementById("campaign-para").innerHTML = `${getData.campaignPara1}`;
+				document.getElementById("update-date").innerHTML = `${getData.updateDate1}`;
+				document.getElementById("update-img").src = `${getData.updateimg1}`;
+            
+          })
+        )
+        .catch(function (err) {
+          console.log(err);
+        })
+    }else if (id == 3) {
+      data
+        .then(res => res.json()
+          .then(val => {
+            const getData = val.find(getRes => getRes.id == id);
+            document.getElementById("main_heading").innerHTML = `${getData.mainHeading}`;
+				document.getElementById("main_para").innerHTML = `${getData.para}`;
+				document.getElementById("main-image").src = `${getData.image1}`;
+				document.getElementById("date").innerHTML = `${getData.date1}`;
+				document.getElementById("name").innerHTML = `${getData.name1}`;
+				document.getElementById("location").innerHTML = `${getData.location1}`;
+				document.getElementById("amount").innerHTML = `${getData.amount1}`;
+				document.getElementById("amount-para").innerHTML = `${getData.amountPara1}`;
+				document.getElementById("recent").innerHTML = `${getData.recent1}`;
+				document.getElementById("recent-para").innerHTML = `${getData.recentPara1}`;				
+				document.getElementById("days").innerHTML = `${getData.days1}`;
+				document.getElementById("days-para").innerHTML = `${getData.daysPara1}`;
+				document.getElementById("social-para").innerHTML = `${getData.socialPara1}`;
+				document.getElementById("campaign-heading").innerHTML = `${getData.campaignHeading1}`;
+				document.getElementById("campaign-img").src = `${getData.campaignimg1}`;
+				document.getElementById("campaign-para").innerHTML = `${getData.campaignPara1}`;
+				document.getElementById("update-date").innerHTML = `${getData.updateDate1}`;
+				document.getElementById("update-img").src = `${getData.updateimg1}`;
+            
+          })
+        )
+        .catch(function (err) {
+          console.log(err);
+        })
+    }else if (id == 4) {
+      data
+        .then(res => res.json()
+          .then(val => {
+            const getData = val.find(getRes => getRes.id == id);
+            document.getElementById("main_heading").innerHTML = `${getData.mainHeading}`;
+				document.getElementById("main_para").innerHTML = `${getData.para}`;
+				document.getElementById("main-image").src = `${getData.image1}`;
+				document.getElementById("date").innerHTML = `${getData.date1}`;
+				document.getElementById("name").innerHTML = `${getData.name1}`;
+				document.getElementById("location").innerHTML = `${getData.location1}`;
+				document.getElementById("amount").innerHTML = `${getData.amount1}`;
+				document.getElementById("amount-para").innerHTML = `${getData.amountPara1}`;
+				document.getElementById("recent").innerHTML = `${getData.recent1}`;
+				document.getElementById("recent-para").innerHTML = `${getData.recentPara1}`;				
+				document.getElementById("days").innerHTML = `${getData.days1}`;
+				document.getElementById("days-para").innerHTML = `${getData.daysPara1}`;
+				document.getElementById("social-para").innerHTML = `${getData.socialPara1}`;
+				document.getElementById("campaign-heading").innerHTML = `${getData.campaignHeading1}`;
+				document.getElementById("campaign-img").src = `${getData.campaignimg1}`;
+				document.getElementById("campaign-para").innerHTML = `${getData.campaignPara1}`;
+				document.getElementById("update-date").innerHTML = `${getData.updateDate1}`;
+				document.getElementById("update-img").src = `${getData.updateimg1}`;
+            
+          })
+        )
+        .catch(function (err) {
+          console.log(err);
+        })
+    }else if (id == 5) {
+      data
+        .then(res => res.json()
+          .then(val => {
+            const getData = val.find(getRes => getRes.id == id);
+            document.getElementById("main_heading").innerHTML = `${getData.mainHeading}`;
+				document.getElementById("main_para").innerHTML = `${getData.para}`;
+				document.getElementById("main-image").src = `${getData.image1}`;
+				document.getElementById("date").innerHTML = `${getData.date1}`;
+				document.getElementById("name").innerHTML = `${getData.name1}`;
+				document.getElementById("location").innerHTML = `${getData.location1}`;
+				document.getElementById("amount").innerHTML = `${getData.amount1}`;
+				document.getElementById("amount-para").innerHTML = `${getData.amountPara1}`;
+				document.getElementById("recent").innerHTML = `${getData.recent1}`;
+				document.getElementById("recent-para").innerHTML = `${getData.recentPara1}`;				
+				document.getElementById("days").innerHTML = `${getData.days1}`;
+				document.getElementById("days-para").innerHTML = `${getData.daysPara1}`;
+				document.getElementById("social-para").innerHTML = `${getData.socialPara1}`;
+				document.getElementById("campaign-heading").innerHTML = `${getData.campaignHeading1}`;
+				document.getElementById("campaign-img").src = `${getData.campaignimg1}`;
+				document.getElementById("campaign-para").innerHTML = `${getData.campaignPara1}`;
+				document.getElementById("update-date").innerHTML = `${getData.updateDate1}`;
+				document.getElementById("update-img").src = `${getData.updateimg1}`;
+            
+          })
+        )
+        .catch(function (err) {
+          console.log(err);
+        })
+    }else if (id == 6) {
+      data
+        .then(res => res.json()
+          .then(val => {
+            const getData = val.find(getRes => getRes.id == id);
+            document.getElementById("main_heading").innerHTML = `${getData.mainHeading}`;
+				document.getElementById("main_para").innerHTML = `${getData.para}`;
+				document.getElementById("main-image").src = `${getData.image1}`;
+				document.getElementById("date").innerHTML = `${getData.date1}`;
+				document.getElementById("name").innerHTML = `${getData.name1}`;
+				document.getElementById("location").innerHTML = `${getData.location1}`;
+				document.getElementById("amount").innerHTML = `${getData.amount1}`;
+				document.getElementById("amount-para").innerHTML = `${getData.amountPara1}`;
+				document.getElementById("recent").innerHTML = `${getData.recent1}`;
+				document.getElementById("recent-para").innerHTML = `${getData.recentPara1}`;				
+				document.getElementById("days").innerHTML = `${getData.days1}`;
+				document.getElementById("days-para").innerHTML = `${getData.daysPara1}`;
+				document.getElementById("social-para").innerHTML = `${getData.socialPara1}`;
+				document.getElementById("campaign-heading").innerHTML = `${getData.campaignHeading1}`;
+				document.getElementById("campaign-img").src = `${getData.campaignimg1}`;
+				document.getElementById("campaign-para").innerHTML = `${getData.campaignPara1}`;
+				document.getElementById("update-date").innerHTML = `${getData.updateDate1}`;
+				document.getElementById("update-img").src = `${getData.updateimg1}`;
+            
+          })
+        )
+        .catch(function (err) {
+          console.log(err);
+        })
+    }else if (id == 7) {
+      data
+        .then(res => res.json()
+          .then(val => {
+            const getData = val.find(getRes => getRes.id == id);
+            document.getElementById("main_heading").innerHTML = `${getData.mainHeading}`;
+				document.getElementById("main_para").innerHTML = `${getData.para}`;
+				document.getElementById("main-image").src = `${getData.image1}`;
+				document.getElementById("date").innerHTML = `${getData.date1}`;
+				document.getElementById("name").innerHTML = `${getData.name1}`;
+				document.getElementById("location").innerHTML = `${getData.location1}`;
+				document.getElementById("amount").innerHTML = `${getData.amount1}`;
+				document.getElementById("amount-para").innerHTML = `${getData.amountPara1}`;
+				document.getElementById("recent").innerHTML = `${getData.recent1}`;
+				document.getElementById("recent-para").innerHTML = `${getData.recentPara1}`;				
+				document.getElementById("days").innerHTML = `${getData.days1}`;
+				document.getElementById("days-para").innerHTML = `${getData.daysPara1}`;
+				document.getElementById("social-para").innerHTML = `${getData.socialPara1}`;
+				document.getElementById("campaign-heading").innerHTML = `${getData.campaignHeading1}`;
+				document.getElementById("campaign-img").src = `${getData.campaignimg1}`;
+				document.getElementById("campaign-para").innerHTML = `${getData.campaignPara1}`;
+				document.getElementById("update-date").innerHTML = `${getData.updateDate1}`;
+				document.getElementById("update-img").src = `${getData.updateimg1}`;
+            
+          })
+        )
+        .catch(function (err) {
+          console.log(err);
+        })
+    }else if (id == 8) {
+      data
+        .then(res => res.json()
+          .then(val => {
+            const getData = val.find(getRes => getRes.id == id);
+            document.getElementById("main_heading").innerHTML = `${getData.mainHeading}`;
+				document.getElementById("main_para").innerHTML = `${getData.para}`;
+				document.getElementById("main-image").src = `${getData.image1}`;
+				document.getElementById("date").innerHTML = `${getData.date1}`;
+				document.getElementById("name").innerHTML = `${getData.name1}`;
+				document.getElementById("location").innerHTML = `${getData.location1}`;
+				document.getElementById("amount").innerHTML = `${getData.amount1}`;
+				document.getElementById("amount-para").innerHTML = `${getData.amountPara1}`;
+				document.getElementById("recent").innerHTML = `${getData.recent1}`;
+				document.getElementById("recent-para").innerHTML = `${getData.recentPara1}`;				
+				document.getElementById("days").innerHTML = `${getData.days1}`;
+				document.getElementById("days-para").innerHTML = `${getData.daysPara1}`;
+				document.getElementById("social-para").innerHTML = `${getData.socialPara1}`;
+				document.getElementById("campaign-heading").innerHTML = `${getData.campaignHeading1}`;
+				document.getElementById("campaign-img").src = `${getData.campaignimg1}`;
+				document.getElementById("campaign-para").innerHTML = `${getData.campaignPara1}`;
+				document.getElementById("update-date").innerHTML = `${getData.updateDate1}`;
+				document.getElementById("update-img").src = `${getData.updateimg1}`;
+            
+          })
+        )
+        .catch(function (err) {
+          console.log(err);
+        })
+    }else if (id == 9) {
+      data
+        .then(res => res.json()
+          .then(val => {
+            const getData = val.find(getRes => getRes.id == id);
+            document.getElementById("main_heading").innerHTML = `${getData.mainHeading}`;
+				document.getElementById("main_para").innerHTML = `${getData.para}`;
+				document.getElementById("main-image").src = `${getData.image1}`;
+				document.getElementById("date").innerHTML = `${getData.date1}`;
+				document.getElementById("name").innerHTML = `${getData.name1}`;
+				document.getElementById("location").innerHTML = `${getData.location1}`;
+				document.getElementById("amount").innerHTML = `${getData.amount1}`;
+				document.getElementById("amount-para").innerHTML = `${getData.amountPara1}`;
+				document.getElementById("recent").innerHTML = `${getData.recent1}`;
+				document.getElementById("recent-para").innerHTML = `${getData.recentPara1}`;				
+				document.getElementById("days").innerHTML = `${getData.days1}`;
+				document.getElementById("days-para").innerHTML = `${getData.daysPara1}`;
+				document.getElementById("social-para").innerHTML = `${getData.socialPara1}`;
+				document.getElementById("campaign-heading").innerHTML = `${getData.campaignHeading1}`;
+				document.getElementById("campaign-img").src = `${getData.campaignimg1}`;
+				document.getElementById("campaign-para").innerHTML = `${getData.campaignPara1}`;
+				document.getElementById("update-date").innerHTML = `${getData.updateDate1}`;
+				document.getElementById("update-img").src = `${getData.updateimg1}`;
+            
+          })
+        )
+        .catch(function (err) {
+          console.log(err);
+        })
+    }else if (id == 10) {
+      data
+        .then(res => res.json()
+          .then(val => {
+            const getData = val.find(getRes => getRes.id == id);
+            document.getElementById("main_heading").innerHTML = `${getData.mainHeading}`;
+				document.getElementById("main_para").innerHTML = `${getData.para}`;
+				document.getElementById("main-image").src = `${getData.image1}`;
+				document.getElementById("date").innerHTML = `${getData.date1}`;
+				document.getElementById("name").innerHTML = `${getData.name1}`;
+				document.getElementById("location").innerHTML = `${getData.location1}`;
+				document.getElementById("amount").innerHTML = `${getData.amount1}`;
+				document.getElementById("amount-para").innerHTML = `${getData.amountPara1}`;
+				document.getElementById("recent").innerHTML = `${getData.recent1}`;
+				document.getElementById("recent-para").innerHTML = `${getData.recentPara1}`;				
+				document.getElementById("days").innerHTML = `${getData.days1}`;
+				document.getElementById("days-para").innerHTML = `${getData.daysPara1}`;
+				document.getElementById("social-para").innerHTML = `${getData.socialPara1}`;
+				document.getElementById("campaign-heading").innerHTML = `${getData.campaignHeading1}`;
+				document.getElementById("campaign-img").src = `${getData.campaignimg1}`;
+				document.getElementById("campaign-para").innerHTML = `${getData.campaignPara1}`;
+				document.getElementById("update-date").innerHTML = `${getData.updateDate1}`;
+				document.getElementById("update-img").src = `${getData.updateimg1}`;
+            
+          })
+        )
+        .catch(function (err) {
+          console.log(err);
+        })
+    }else if (id == 11) {
+      data
+        .then(res => res.json()
+          .then(val => {
+            const getData = val.find(getRes => getRes.id == id);
+            document.getElementById("main_heading").innerHTML = `${getData.mainHeading}`;
+				document.getElementById("main_para").innerHTML = `${getData.para}`;
+				document.getElementById("main-image").src = `${getData.image1}`;
+				document.getElementById("date").innerHTML = `${getData.date1}`;
+				document.getElementById("name").innerHTML = `${getData.name1}`;
+				document.getElementById("location").innerHTML = `${getData.location1}`;
+				document.getElementById("amount").innerHTML = `${getData.amount1}`;
+				document.getElementById("amount-para").innerHTML = `${getData.amountPara1}`;
+				document.getElementById("recent").innerHTML = `${getData.recent1}`;
+				document.getElementById("recent-para").innerHTML = `${getData.recentPara1}`;				
+				document.getElementById("days").innerHTML = `${getData.days1}`;
+				document.getElementById("days-para").innerHTML = `${getData.daysPara1}`;
+				document.getElementById("social-para").innerHTML = `${getData.socialPara1}`;
+				document.getElementById("campaign-heading").innerHTML = `${getData.campaignHeading1}`;
+				document.getElementById("campaign-img").src = `${getData.campaignimg1}`;
+				document.getElementById("campaign-para").innerHTML = `${getData.campaignPara1}`;
+				document.getElementById("update-date").innerHTML = `${getData.updateDate1}`;
+				document.getElementById("update-img").src = `${getData.updateimg1}`;
+            
+          })
+        )
+        .catch(function (err) {
+          console.log(err);
+        })
+    }else if (id == 12) {
+      data
+        .then(res => res.json()
+          .then(val => {
+            const getData = val.find(getRes => getRes.id == id);
+            document.getElementById("main_heading").innerHTML = `${getData.mainHeading}`;
+				document.getElementById("main_para").innerHTML = `${getData.para}`;
+				document.getElementById("main-image").src = `${getData.image1}`;
+				document.getElementById("date").innerHTML = `${getData.date1}`;
+				document.getElementById("name").innerHTML = `${getData.name1}`;
+				document.getElementById("location").innerHTML = `${getData.location1}`;
+				document.getElementById("amount").innerHTML = `${getData.amount1}`;
+				document.getElementById("amount-para").innerHTML = `${getData.amountPara1}`;
+				document.getElementById("recent").innerHTML = `${getData.recent1}`;
+				document.getElementById("recent-para").innerHTML = `${getData.recentPara1}`;				
+				document.getElementById("days").innerHTML = `${getData.days1}`;
+				document.getElementById("days-para").innerHTML = `${getData.daysPara1}`;
+				document.getElementById("social-para").innerHTML = `${getData.socialPara1}`;
+				document.getElementById("campaign-heading").innerHTML = `${getData.campaignHeading1}`;
+				document.getElementById("campaign-img").src = `${getData.campaignimg1}`;
+				document.getElementById("campaign-para").innerHTML = `${getData.campaignPara1}`;
+				document.getElementById("update-date").innerHTML = `${getData.updateDate1}`;
+				document.getElementById("update-img").src = `${getData.updateimg1}`;
+            
+          })
+        )
+        .catch(function (err) {
+          console.log(err);
+        })
+    }
 		</script>
+
+
+<script>
+	var prevScrollpos = window.pageYOffset;
+	window.onscroll = function () {
+		var currentScrollPos = window.pageYOffset;
+		if (prevScrollpos > currentScrollPos) {
+			document.getElementById("navbar").style.top = "0";
+			$(".header-section").addClass("active1");
+		} else {
+			document.getElementById("navbar").style.top = "-110px";
+			$("navbar").removeClass("active1");
+		}
+		prevScrollpos = currentScrollPos;
+	}
+</script>
+
+
+
 </body>
 
 </html>

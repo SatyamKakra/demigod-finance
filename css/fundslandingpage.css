@@ -2,7 +2,9 @@
 	padding: 70px 0 65px;
     margin-top: 6rem;
 }
-
+.breadcrumb-option .set-bg{
+	object-fit: contain;
+}
 .breadcrumb-option.contact-breadcrumb {
 	padding: 70px 0 260px;
 }

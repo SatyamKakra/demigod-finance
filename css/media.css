@@ -9,6 +9,7 @@
     flex-wrap: wrap;
     flex-direction: column;
     margin-left: 2rem;
+    margin-top: 2rem;
 }
 .media .heading{
 position: absolute;
@@ -32,6 +33,7 @@ font-weight: 400;
 }
 .hit-vedio h1{
   font-weight: bolder;
+  font-size: 25px;
 }
 .para{
     margin-top: 1rem;
@@ -82,7 +84,8 @@ font-weight: 400;
   font-family: "poppins";
 }
 .tile p{
-  margin-top: 0.5rem;
+  /* margin-top: 0.5rem; */
+  line-height: normal;
 }
 
 .active1 {
@@ -97,4 +100,323 @@ font-weight: 400;
   }
   
 
+  /* test */
   
+:root {
+  font-size: 10px;
+  --grey-text: #828282;
+  --black-text: #111;
+}
+
+
+
+
+.container_media {
+  max-width: 138rem;
+  margin: 0 auto;
+  padding: 0 2vw;
+  margin-right: 2rem;
+
+
+  
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font: inherit;
+  background: none;
+  border: none;
+  color: inherit;
+  padding: 0;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+::-webkit-scrollbar {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 0.5rem;
+  border: 0.2rem solid #fff;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #666;
+}
+
+
+/* Channel banner */
+
+.channel-banner {
+  flex-basis: 16vw;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  background: url("https://images.unsplash.com/photo-1486597622250-f997d79907f8?w=1400&h=600&fit=crop") no-repeat center 35%;
+  background-size: cover;
+  padding: 11.6rem;
+  margin-top: 13rem;
+}
+
+
+
+/* Channel content */
+
+.channel-content .container {
+  display: flex;
+  padding-top: 2.4rem;
+  padding-bottom: 2.4rem;
+  color: var(--grey-text);
+}
+
+.channel-videos {
+  display: flex;
+  flex-direction: column;
+  min-width: 42.5rem;
+  max-width: 107rem;
+}
+
+.video-title {
+  color: var(--black-text);
+}
+
+.video-meta-data,
+.video-description {
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+.video-description {
+  max-width: 60rem;
+  line-height: 1.4;
+}
+
+.video-meta-data li {
+  display: inline-block;
+}
+
+.video-creator {
+  padding-right: 0.4rem;
+}
+
+.video-views::after {
+  content: "\00B7";
+  font-size: 2.2rem;
+  padding-left: 0.4rem;
+  vertical-align: middle;
+}
+
+/* Featured video */
+
+.featured-video {
+  display: flex;
+  cursor: pointer;
+}
+
+.featured-video .video-info {
+  flex: 1;
+}
+
+.featured-video .video-thumbnail {
+  margin-right: 1.5rem;
+}
+
+.featured-video .video-title {
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+/* Video playlists */
+
+.playlist {
+  position: relative;
+  padding-bottom: 1rem;
+  overflow-x: auto;
+  margin-top: 2rem;
+}
+
+.playlist-title {
+  font-size: 1.6rem;
+  font-weight: 500;
+  position: -webkit-sticky;
+  position: sticky;
+  left: 0;
+  border-top: 0.1rem solid #eee;
+  padding: 2rem 0;
+  color: var(--black-text);
+}
+
+.playlist-videos {
+  display: flex;
+}
+
+.playlist-video {
+  flex-basis: 21rem;
+  margin-right: 0.5rem;
+  cursor: pointer;
+}
+
+.playlist-video .video-title {
+  font-size: 1.4rem;
+  font-weight: 500;
+  padding: 0.5rem 0;
+}
+
+.playlist-video .video-creator {
+  display: block;
+}
+
+/* Recommended channels */
+
+.recommended-channels {
+  margin-left: 2rem;
+ 
+}
+
+.recommended-channels-heading {
+  font-size: 1.4rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: var(--grey-text);
+  margin-bottom: 2rem;
+}
+
+.recommended-channels-group:first-of-type {
+  margin-bottom: 2rem;
+  border-bottom: 0.1rem solid #eee;
+  margin-top: 18rem;
+}
+
+.recommended-channel {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-bottom: 2rem;
+  cursor: pointer;
+}
+
+.recommended-channel-icon {
+  width: 2.4rem;
+  height: 2.4rem;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 0.8rem;
+}
+
+.recommended-channel-title {
+  flex: 1 0 50%;
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: var(--black-text);
+}
+
+.recommended-channel-subscribe {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: var(--grey-text);
+  background-color: #eee;
+  width: 10rem;
+  height: 2.4rem;
+  margin-top: 0.8rem;
+}
+
+/*
+
+The following rule will only run if your browser supports CSS grid.
+
+Remove or comment-out the code block below to see how the browser will fall-back to flexbox styling. 
+
+*/
+
+@supports (display: grid) {
+ 
+ 
+ 
+
+  .channel-info .container {
+      display: grid;
+      grid-template-columns: 8rem minmax(auto, 1fr) auto;
+      grid-column-gap: 2rem;
+  }
+
+ 
+
+  .channel-content .container {
+      display: grid;
+      grid-template-columns: 5fr 1fr;
+      grid-gap: 2rem;
+  }
+
+  .channel-videos {
+      display: grid;
+      grid-row-gap: 2rem;
+      max-width: 100%;
+  }
+
+  .featured-video {
+      display: grid;
+      grid-template-columns: auto 1fr;
+      grid-gap: 1.5rem;
+      margin-top: 6rem;
+  }
+
+  .playlist-videos {
+      display: grid;
+      grid-auto-flow: column;
+      grid-auto-columns: 21rem;
+      grid-column-gap: 0.5rem;
+  }
+
+ 
+  
+  
+  .playlist,
+  .featured-video .video-thumbnail,
+  .playlist-video,
+  .recommended-channels,
+  .recommended-channel-icon,
+  .recommended-channel-subscribe {
+      margin: 0;
+  }
+
+  @media screen and (max-width: 60rem) {
+    
+      .channel-info .container {
+          grid-template-columns: repeat(2, auto);
+      }
+
+      .channel-content .container_media {
+          grid-template-columns: minmax(42.5rem, 1fr);
+      }
+  }
+}
+
+/* Media queries */
+
+@media screen and (max-width: 60rem) {
+ 
+  .channel-info .container {
+      justify-content: space-around;
+  }
+
+  
+
+  .channel-videos {
+      max-width: 100%;
+  }
+
+  .recommended-channels,
+  .channel-icon {
+      display: none;
+  }
+}
+
