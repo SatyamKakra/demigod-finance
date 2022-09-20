@@ -64,11 +64,7 @@ font-weight: 400;
     transform-origin: center left;
   }  
   
-  /* .swimlane:hover {
-    &.left {
-      transform: translate3d(-3.8rem, 0, 0);
-    }
-  } */
+  
   
   .tile:hover {
     transform: scale(1.2);
@@ -275,67 +271,6 @@ font-weight: 400;
   display: block;
 }
 
-/* Recommended channels */
-
-.recommended-channels {
-  margin-left: 2rem;
- 
-}
-
-.recommended-channels-heading {
-  font-size: 1.4rem;
-  font-weight: 500;
-  text-transform: uppercase;
-  color: var(--grey-text);
-  margin-bottom: 2rem;
-}
-
-.recommended-channels-group:first-of-type {
-  margin-bottom: 2rem;
-  border-bottom: 0.1rem solid #eee;
-  margin-top: 18rem;
-}
-
-.recommended-channel {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  padding-bottom: 2rem;
-  cursor: pointer;
-}
-
-.recommended-channel-icon {
-  width: 2.4rem;
-  height: 2.4rem;
-  border-radius: 50%;
-  overflow: hidden;
-  margin-right: 0.8rem;
-}
-
-.recommended-channel-title {
-  flex: 1 0 50%;
-  font-size: 1.4rem;
-  font-weight: 500;
-  color: var(--black-text);
-}
-
-.recommended-channel-subscribe {
-  font-size: 1.4rem;
-  font-weight: 500;
-  color: var(--grey-text);
-  background-color: #eee;
-  width: 10rem;
-  height: 2.4rem;
-  margin-top: 0.8rem;
-}
-
-/*
-
-The following rule will only run if your browser supports CSS grid.
-
-Remove or comment-out the code block below to see how the browser will fall-back to flexbox styling. 
-
-*/
 
 @supports (display: grid) {
  

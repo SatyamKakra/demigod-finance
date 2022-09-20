@@ -42,27 +42,11 @@
 }
 
 
-/* test */
+/* blog area start */
 .templateux-footer, .templateux-section {
   padding: 7em 0;
 }
-/* @media (min-width: 1200px){
-.container {
-    max-width: 1140px;
-}}
 
-@media (min-width: 992px){
-.container {
-    max-width: 960px;
-}}
-@media (min-width: 768px){
-.container {
-    max-width: 720px;
-}}
-@media (min-width: 576px){
-.container {
-    max-width: 540px;
-}} */
 .container-journal {
     width: 100%;
     padding-right: 15px;
@@ -207,3 +191,4 @@ label {
 .btn-journal:hover{
   background-color: goldenrod;
 }
+/* blog area end */

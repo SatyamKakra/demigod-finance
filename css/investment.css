@@ -462,39 +462,58 @@ color: #f49f00;
 /*---------------------
   About Section
 -----------------------*/
-.about-section{
-background-color: white;
+
+.more-info {
+	margin-top: 140px;
 }
 
-.about-section .container {
-	position: relative;
-
+.more-info .left-image img {
+	width: 100%;
+	overflow: hidden;
 }
 
-.about-text h2 {
-	font-size: 48px;
-	margin-bottom: 25px;
-  color: #f49f00;
+.more-info .more-info-content {
+	background-color: #f7f7f7;
 }
 
-.about-text h5 {
-	font-family: "Lato", sans-serif;
-	margin-bottom: 20px;
+.about-info .more-info-content {
+	background-color: transparent;
 }
 
-.about-text p {
-	font-size: 18px;
+.about-info .right-content {
+	padding: 0px!important;
+	margin-right: 30px;
 }
 
-.about-img {
-	position: absolute;
-	top: 0;
-	left: -120px;
-	width: 662px;
+.more-info .right-content {
+	padding: 45px 45px 45px 30px;
 }
-.site-btn1{
-  margin-top: 1rem;
+
+.more-info .right-content span {
+	text-transform: uppercase;
+	font-size: 15px;
+	color: #666;
+	letter-spacing: 1px;
+	margin-bottom: 10px;
+	display: block;
 }
+
+.more-info .right-content h2 {
+	font-size: 36px;
+	font-weight: 600;
+	margin-bottom: 35px;
+}
+
+.more-info .right-content em {
+	font-style: normal;
+	color: #f5b400;
+}
+
+.more-info .right-content p {
+	margin-bottom: 30px;
+}
+
+/* about section end */
 
 /* request for call start */
 .callback-heading{
@@ -632,7 +651,15 @@ color: #f49f00;
   width: 100%;
   float: left;
 }
-
+.right-content h2{
+  margin-bottom: 2rem;
+}
+.right-content em{
+  color: #fcae07;
+}
+.investbtn{
+  margin-top: 6rem;
+}
 .layout_padding1 {
   padding-top: 90px;
   padding-bottom: 20px;
@@ -715,15 +742,7 @@ color: #f49f00;
 	margin-bottom: 0;
 }
 
-.process-step:after {
-	position: absolute;
-	content: '';
-	width: 275px;
-	height: 56px;
-	top: -40px;
-	right: -40%;
-	background: url("../image/process-line.png") no-repeat scroll 0 0/cover;
-}
+
 
 
 .appointment {
@@ -805,3 +824,18 @@ margin-bottom:5px;
   text-transform: uppercase;
 }
 /* breacker 2 end */
+
+/* navbar scroll action start */
+.active1 {
+	
+	background: snow;
+	border-bottom: 1px solid black;
+  }
+  .active1 .scrol_menu{
+	color: #080808 !important;
+  }
+   .main-menu li a .scrol_menu:hover{
+	color: #D1B000;
+  }
+
+/* navbar scroll action end */

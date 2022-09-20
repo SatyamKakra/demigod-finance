@@ -139,35 +139,7 @@ h4 {
  /* interest rate end  */
 
 /* let's discuss */
-/* .contact-wrap {
-    padding: 40px;
-    max-width: 750px;
-    margin: 0 auto;
-}
-.contact-wrap h4 {
-    color: #fff;
-    text-align: center;
-    margin: 0 auto 40px;
-}
-.form-group {
-    margin-bottom: 15px;
-    position: relative;
-}
-.form-control {
-    background: #fff none repeat scroll 0 0;
-    border-radius: 6px;
-    border: #ccc solid 1px;
-    box-shadow: none;
-    color: #888888;
-    font-size: 14px;
-    height: 50px;
-    line-height: 30px;
-    padding: 0 15px;
-}
-.primary-bg {
-    background-color:#78660c;
-    background-image: url(../images/pattern-1.svg);
-} */
+
 .facts-wrap {
     margin: 0 auto 60px;
 }
@@ -184,90 +156,7 @@ h4 {
     line-height: 100px;
     margin: 0 auto 12px;
 }
-  /* document required start  */
-
- .section1-padding {
-    padding: 80px 0;
-}
-.section1 {
-    position: relative;
-}
-.section1-documents {
-    margin: 0 auto;
-    max-width: 800px;
-    padding-bottom: 65px;
-}
-.section1-documents h2 {
-    margin: 0 auto;
-    color: #f49f00;
-}
-h2 {
-    font-size: 34px;
-}
-.section1-documents p {
-    margin: 22px auto 0;
-}
-.doc-list-wrap {
-    position: relative;
-    padding: 60px;
-    color: #fff;
-}
-.primary-bgdocs {
-    background-color: #947a24;
-    /* background-image: url(../images/pattern-1.svg); */
-}
-.doc-list {
-    display: table;
-    width: 100%;
-    margin: 0 auto 40px;
-}
-.list-icon {
-    float: left;
-    background: #fff;
-    padding: 20px;
-    width: 160px;
-    height: 160px;
-    text-align: center;
-    border-radius: 50%;
-    box-shadow: rgb(0 0 0 / 10%) 0 0 12px;
-    border: rgba(0, 0, 0, 0.3) solid 1px;
-    z-index: 1;
-    position: relative;
-    font-size: 70px;
-    color: #062166;
-    line-height: 120px;
-    transition-duration: 0.3s;
-    -webkit-transition-duration: 0.3s;
-    -o-transition-duration: 0.3s;
-    -moz-transition-duration: 0.3s;
-}
-.list-info {
-    float: right;
-    padding: 15px 0;
-    width: calc(100% - 200px);
-}
-.list-info h5 {
-    color: #fff;
-    font-size: 22px;
-}
-.list-info p {
-    margin-bottom: 20px;
-    color: white;
-}
-.doc-list-wrap:after {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    content: "";
-    background: #fff;
-    width: 150px;
-}
-.doc-list:hover .list-icon {
-    background: #f49f00;
-    color: #fff;
-}
-/* documents required end */
+  
 
 /* business loan start */
 #banner2{
@@ -294,10 +183,7 @@ h2 {
 
 /* Eligibility start */
 
-/* #eligiblity{
-    background-color: rgba(31, 33, 36, 0.9);
-    
-} */
+
 
 .ul-listing {
     padding: 0;
@@ -509,10 +395,12 @@ ul, ol {
 
 #banner4 {
     
-        background: linear-gradient(-45deg, #2e2826, #c0922e, #60696d, #c2a10e);
-        background-size: 400% 400%;
-        animation: gradient 15s ease infinite;
-        height: 100vh;
+    margin-top: 2rem;
+    padding-top: 0rem;
+        /* background: radial-gradient(1.5em 6.28571em at 1.95em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 0 0, radial-gradient(1.5em 6.28571em at -0.45em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 1.5em 5.5em, radial-gradient(2.3em 4.57143em at 2.99em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0.3) 55%, rgba(255, 255, 255, 0) 55%) 0 0, radial-gradient(2.3em 4.57143em at -0.69em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0.3) 55%, rgba(255, 255, 255, 0) 55%) 2.3em 4em, radial-gradient(3.5em 6.28571em at 4.55em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 0 0, radial-gradient(3.5em 6.28571em at -1.05em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 3.5em 5.5em, radial-gradient(#fcc203, #1b2020); */
+        background-color: rgb(114, 114, 114);
+        background-size: 1.5em 11em, 1.5em 11em, 2.3em 8em, 2.3em 8em, 3.5em 11em, 3.5em 11em, 100% 100%;
+        background-repeat: repeat;
     }
     
     @keyframes gradient {
@@ -533,13 +421,16 @@ ul, ol {
 /* commercial loan end */
 
 /* asset loan start */
-
 #banner5{
-    background: linear-gradient(-45deg, #2e2826, #c0922e, #60696d, #c2a10e);
-    background-size: 400% 400%;
-    animation: gradient 15s ease infinite;
-    height: 100vh; 
+    margin-top: 2rem;
+    padding-top: 0rem;
+        /* background: radial-gradient(1.5em 6.28571em at 1.95em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 0 0, radial-gradient(1.5em 6.28571em at -0.45em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 1.5em 5.5em, radial-gradient(2.3em 4.57143em at 2.99em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0.3) 55%, rgba(255, 255, 255, 0) 55%) 0 0, radial-gradient(2.3em 4.57143em at -0.69em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0.3) 55%, rgba(255, 255, 255, 0) 55%) 2.3em 4em, radial-gradient(3.5em 6.28571em at 4.55em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 0 0, radial-gradient(3.5em 6.28571em at -1.05em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 3.5em 5.5em, radial-gradient(#fcc203, #1b2020); */
+        background-color: rgb(114, 114, 114);
+        background-size: 1.5em 11em, 1.5em 11em, 2.3em 8em, 2.3em 8em, 3.5em 11em, 3.5em 11em, 100% 100%;
+        background-repeat: repeat;
+      
 }
+
 .ul-listing {
     padding: 0;
     margin: 0 auto;
@@ -636,38 +527,48 @@ ul, ol {
 
 
 /* breacker 2 start */
-.main_counter_content{
-    display: flex;
-    
-  }
-  .main_counter_content .single_counter {
-	background: #fff none repeat scroll 0 0;
-	border: 3px solid #c2a10e;
-	border-radius: 50%;
-	color: #070707;
-	/* display: block; */
-	height: 190px;
-	margin: 0 auto;
-	width: 190px;
-	font-weight: 600;
-	font-size: 30px;
-	padding-top: 28px;
-	padding-bottom: 28px;
-    margin-bottom: 1rem;
+.cool-facts-area {
+    padding: 100px 0 70px;
+  
   }
   
-  p.counter_icon{
-	margin-bottom: 0;
+  .single_cool_fact {
+    position: relative;
+    z-index: 1;
+    background: #fff;
+    border: 1px solid #eb9a05;
+    border-bottom: 3px solid #eb9a05;
+    border-radius: 0 0 20px 20px;
+    padding: 30px;
+    overflow: hidden;
+    margin-bottom: 30px;
   }
   
-  p.counter_icon i{
-	font-size:32px;
-	position: relative;
-	top: -10px;
+  
+  .cool_fact_icon i {
+    font-size: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: .1;
+    color: #242020;
+    font-weight: 800;
   }
-  .single_counter.p-y-2 > span {
-	font-size: 32px;
-	font-weight: 600;
+  
+  .cool_fact_detail h3 {
+    font-size: 35px;
+    font-weight: 600;
+    margin-top: 0 !important;
+    margin-top: 15px;
+    color: #0a0a0a !important;
+  }
+  
+  .cool_fact_detail h2 {
+    font-size: 14px;
+    margin-bottom: 0;
+    color: #0c0c0c !important;
+    text-transform: uppercase;
   }
 /* breacker 2 end */
 
@@ -779,8 +680,9 @@ ul, ol {
 }
 /* breacker 5 end */
 
-/* test */
 
+
+/* navbar scroll action start */
 .active1 {
 	/* background-color: rgba(248, 240, 240, 0.8); */
 	background: snow;
@@ -792,4 +694,7 @@ ul, ol {
    .main-menu li a .scrol_menu:hover{
 	color: #D1B000;
   }
+/* navbar scroll action end */
 
+
+/* test */
